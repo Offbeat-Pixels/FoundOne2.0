@@ -5,38 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Found One Real Estate</title>
     <link rel="stylesheet" href="output.css" />
+    <script src="index.js"></script>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     />
-   
-     
   </head>
   <body class="font-sans">
-    <!-- Header -->
-    <header
-      class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center"
-    >
-      <a href="/">
-      <img src="assets/logo.png" alt="Found One Logo" class="h-14" /></a>
-      <nav class="hidden md:flex space-x-8">
-        <a href="Rent.html" class="text-gray-700 font-medium">Rent</a>
-        <a href="#" class="text-gray-700 font-medium">Buy</a>
-        <a href="#" class="text-gray-700 font-medium">Sell</a>
-        <a href="About.html" class="text-gray-700 font-medium">About Us</a>
-        <a href="#" class="text-gray-700 font-medium">Contact</a>
-      </nav>
-      <a
-        href="#"
-        class="hidden md:block bg-red-500 text-white px-6 py-2 rounded-full font-medium"
-        >Let's Talk</a
-      >
-      <button class="md:hidden text-xl">☰</button>
-    </header>
+     <div id="navbar"></div>
+ 
 
     <!-- Hero Section -->
     <section
-      class="relative max-w-7xl mx-auto bg-contain bg-no-repeat bg-center px-40 py-20 md:py-44"
+      class="relative max-w-7xl mx-auto bg-contain bg-no-repeat bg-center px-24 py-20 md:py-44"
       style="background-image: url('assets/heroBg.png')"
     >
       <div class="relative z-10 text-white max-w-lg">
@@ -65,12 +46,26 @@
         class="absolute bottom-0 right-5 md:right-18 bg-white p-4 rounded-full flex items-center shadow-lg"
       >
         <div class="flex -space-x-2">
-          <img src="assets/p1.png" alt="Client" class="w-12 h-12 rounded-full
-          border-2 border-white" /> <img src="assets/p2.png" alt="Client"
-          class="w-12 h-12 rounded-full border-2 border-white" /> <img
-          src="assets/p1.png" alt="Client" class="w-12 h-12 rounded-full border-2
-          border-white" /> <img src="assets/p2.png" alt="Client" class="w-12 h-12
-          rounded-full border-2 border-white" />
+          <img
+            src="assets/p1.png"
+            alt="Client"
+            class="w-12 h-12 rounded-full border-2 border-white"
+          />
+          <img
+            src="assets/p2.png"
+            alt="Client"
+            class="w-12 h-12 rounded-full border-2 border-white"
+          />
+          <img
+            src="assets/p1.png"
+            alt="Client"
+            class="w-12 h-12 rounded-full border-2 border-white"
+          />
+          <img
+            src="assets/p2.png"
+            alt="Client"
+            class="w-12 h-12 rounded-full border-2 border-white"
+          />
         </div>
         <div class="ml-3 text-gray-700 text-sm">
           <p class="font-semibold">500+ Happy Clients</p>
@@ -83,27 +78,37 @@
       <div class="gap-5 flex max-md:flex-col max-md:">
         <div class="w-3/5 max-md:w-full max-md:ml-0">
           <div class="flex w-full flex-col max-md:max-w-full max-md:mt-10">
-            <img src="assets/home.png" alt="Association" class="aspect-[2.03]
-            object-contain w-[599px] max-w-full rounded-[18px]" />
+            <img
+              src="assets/home.png"
+              alt="Association"
+              class="aspect-[2.03] object-contain w-[599px] max-w-full rounded-[18px]"
+            />
             <div
               class="bg-white self-center z-10 flex mt-[-54px] w-[316px] max-w-full flex-col justify-center px-[39px] py-[9px] rounded-[15px] max-md:px-5"
             >
-              <img src="/assets/logo.png" alt="Logo" class="aspect-[2.56]
-              object-contain w-full" />
+              <img
+                src="/assets/logo.png"
+                alt="Logo"
+                class="aspect-[2.56] object-contain w-full"
+              />
             </div>
             <div class="mt-[-39px] max-md:max-w-full">
               <div class="gap-5 flex max-md:flex-col max-md:">
                 <div class="w-[41%] max-md:w-full max-md:ml-0">
                   <div class="flex grow flex-col max-md:mt-5">
-                    <img src="assets/desk.png" alt="Feature 1" class="aspect-[0.88]
-                    object-contain w-full rounded-[19px]" />
+                    <img
+                      src="assets/desk.png"
+                      alt="Feature 1"
+                      class="aspect-[0.88] object-contain w-full rounded-[19px]"
+                    />
                   </div>
                 </div>
                 <div class="w-[59%] ml-5 max-md:w-full max-md:ml-0">
-                  <img src="assets/keyhandnling.png" alt="Feature 2"
-                  class="aspect-[0.85] object-contain w-full
-                  shadow-[0px_0px_6px_rgba(0,0,0,0.25)] rounded-[19px]
-                  max-md:max-w-full max-md:mt-5" />
+                  <img
+                    src="assets/keyhandnling.png"
+                    alt="Feature 2"
+                    class="aspect-[0.85] object-contain w-full shadow-[0px_0px_6px_rgba(0,0,0,0.25)] rounded-[19px] max-md:max-w-full max-md:mt-5"
+                  />
                 </div>
               </div>
             </div>
@@ -125,53 +130,65 @@
               egestas ut morbi. Leo diam diam.
             </p>
             <div
-              class="flex gap-2.5 text-2xl font-normal leading-[1.2] flex-wrap mt-[68px] max-md:mt-10"
+              class="flex gap-2.5 text-2xl font-normal leading-[1.2] flex-wrap mt-10 max-md:mt-10"
             >
               <div
                 class="flex flex-col grow shrink-0 basis-0 w-fit mt-2 max-md:max-w-full"
               >
-                <div class="flex flex-col space-y-10 pl-5 max-md:max-w-full">
-                  <div class="flex gap-2">
-                    <img src="assets/Icon1.png" alt="" class="bg-yellow-400 p-2 w-10
-                    h-10 rounded-full" />
-                    <div class="">
-                      <h3 class="font-medium">Strategic Partner</h3>
-                      <p class="text-base max-md:max-w-full">
+                <div class="flex flex-col space-y-8 pl-5 max-md:max-w-full">
+                  <div class="flex gap-2 items-center">
+                    <img
+                      src="assets/Icon1.png"
+                      alt=""
+                      class="bg-yellow-400 p-2 w-10 h-10 rounded-full"
+                    />
+                    <div class="pt-5">
+                      <h3 class="font-medium text-xl">Strategic Partner</h3>
+                      <p class="text-sm max-md:max-w-full">
                         Sumo petentium ut per, at his wisim utinam adipiscing.
                         Est ei graeco
                       </p>
                     </div>
                   </div>
-                  <div class="flex gap-2">
-                    <img src="assets/Icon2.png" alt="" class="bg-yellow-400 p-2 w-10
-                    h-10 rounded-full" />
-                    <div class="">
-                      <h3 class="font-medium">Sales Consultant</h3>
-                      <p class="text-base max-md:max-w-full">
+                  <div class="flex gap-2 items-center ">
+                    <img
+                      src="assets/Icon2.png"
+                      alt=""
+                      class="bg-yellow-400 p-2 w-10 h-10 rounded-full"
+                    />
+                    <div class="pt-5">
+                      <h3 class="font-medium text-xl">Sales Consultant</h3>
+                      <p class="text-sm max-md:max-w-full">
                         Sumo petentium ut per, at his wisim utinam adipiscing.
                         Est ei graeco
                       </p>
                     </div>
                   </div>
-                  <div class="flex gap-2">
-                    <img src="assets/Icon3.png" alt="" class="bg-yellow-400 p-2 w-10
-                    h-10 rounded-full" />
-                    <div class="">
-                      <h3 class="font-medium">Channel Partner</h3>
-                      <p class="text-base max-md:max-w-full">
+                  <div class="flex gap-2 items-center">
+                    <img
+                      src="assets/Icon3.png"
+                      alt=""
+                      class="bg-yellow-400 p-2 w-10 h-10 rounded-full"
+                    />
+                    <div class="pt-5">
+                      <h3 class="font-medium text-xl">Channel Partner</h3>
+                      <p class="text-sm max-md:max-w-full">
                         Sumo petentium ut per, at his wisim utinam adipiscing.
                         Est ei graeco
                       </p>
                     </div>
                   </div>
-                  <div class="flex gap-2">
-                    <img src="assets/Icon3.png" alt="" class="bg-yellow-400 p-2 w-10
-                    h-10 rounded-full" />
-                    <div class="">
-                      <h3 class="font-medium">
+                  <div class="flex gap-2 items-center">
+                    <img
+                      src="assets/Icon3.png"
+                      alt=""
+                      class="bg-yellow-400 p-2 w-10 h-10 rounded-full"
+                    />
+                    <div class="pt-5">
+                      <h3 class="font-medium text-xl">
                         Branding & Marketing Consultant
                       </h3>
-                      <p class="text-base max-md:max-w-full">
+                      <p class="text-sm max-md:max-w-full">
                         Sumo petentium ut per, at his wisim utinam adipiscing.
                         Est ei graeco
                       </p>
@@ -202,8 +219,11 @@
           <div
             class="flex flex-col relative aspect-[0.725] text-2xl font-extrabold tracking-[-0.21px] pt-[239px] pb-[15px] px-[9px] rounded-xl max-md:pt-[100px] mt-60"
           >
-            <img src="assets/product1.png" alt="Plotting Projects" class="absolute
-            w-full object-cover inset-0" />
+            <img
+              src="assets/product1.png"
+              alt="Plotting Projects"
+              class="absolute w-full object-cover inset-0"
+            />
             <div class="relative bg-white pt-[11px] pb-[19px] px-2 rounded-md">
               Plotting Projects
             </div>
@@ -216,8 +236,11 @@
             <div
               class="flex flex-col relative aspect-square mb-10 text-2xl font-extrabold tracking-[-0.21px] px-2 rounded-xl max-md:pt-[100px]"
             >
-              <img src="assets/product2.png" alt="Villa Projects" class="absolute
-              hfull w-full object-cover inset-0" />
+              <img
+                src="assets/product2.png"
+                alt="Villa Projects"
+                class="absolute hfull w-full object-cover inset-0"
+              />
               <div class="relative bg-white mt-42 px-2 rounded-md">
                 Villa Projects
               </div>
@@ -227,8 +250,11 @@
             <div
               class="flex flex-col relative aspect-[0.725] text-2xl font-extrabold tracking-[-0.21px] px-2 rounded-xl max-md:pt-[100px]"
             >
-              <img src="assets/product3.png" alt="Group Housing" class="absolute
-              hfull w-full object-cover inset-0" />
+              <img
+                src="assets/product3.png"
+                alt="Group Housing"
+                class="absolute hfull w-full object-cover inset-0"
+              />
               <div class="relative bg-white mt-40 px-2 rounded-md">
                 Group Housing
               </div>
@@ -237,8 +263,11 @@
           <div
             class="flex flex-col h-[30rem] w-72 relative aspect- text-2xl font-extrabold px-2 rounded-xl mt-32"
           >
-            <img src="assets/product4.png" alt="Group Housing" class="absolute hfull
-            w-full object-cover inset-0" />
+            <img
+              src="assets/product4.png"
+              alt="Group Housing"
+              class="absolute hfull w-full object-cover inset-0"
+            />
             <div class="relative bg-yellow-400 mt-80 pb-[19px] px-2 rounded-md">
               Builder Floor
               <p class="text-center text-sm">
@@ -257,8 +286,11 @@
             <div
               class="flex flex-col relative aspect-square mb-10 text-2xl font-extrabold tracking-[-0.21px] px-2 rounded-xl max-md:pt-[100px]"
             >
-              <img src="assets/product5.png" alt="Corporate Projects"
-              class="absolute hfull w-full object-cover inset-0" />
+              <img
+                src="assets/product5.png"
+                alt="Corporate Projects"
+                class="absolute hfull w-full object-cover inset-0"
+              />
               <div class="relative bg-white mt-52 px-2 rounded-md">
                 Corporate Projects
               </div>
@@ -283,8 +315,11 @@
           <div
             class="flex flex-col relative aspect-[0.725] text-2xl font-extrabold tracking-[-0.21px] pt-[239px] pb-20 px-[9px] rounded-xl max-md:pt-[100px] mt-60"
           >
-            <img src="assets/product6.png" alt="Leasing" class="absolute w-full
-            object-cover inset-0" />
+            <img
+              src="assets/product6.png"
+              alt="Leasing"
+              class="absolute w-full object-cover inset-0"
+            />
             <div class="relative bg-white pt-[11px] pb-[19px] px-2 rounded-md">
               Leasing
             </div>
@@ -303,8 +338,11 @@
       <div
         class="flex flex-col self-center relative min-h-[818px] w-full max-w-[1671px] items-center text-2xl font-extrabold tracking-[-0.42px] leading-[1.3] mt-[51px] px-20 pt-20 max-md:max-w-full max-md:mt-10 max-md:px-5 max-md:py-[100px]"
       >
-        <img src="assets/howBg.png" alt="Process background" class="absolute hfull
-        w-full object-cover inset-0" />
+        <img
+          src="assets/howBg.png"
+          alt="Process background"
+          class="absolute hfull w-full object-cover inset-0"
+        />
 
         <div class="grid grid-cols-2 gap-80 z-10">
           <!-- Process Step -->
@@ -445,8 +483,11 @@
             <div class="relative grow max-md:max-w-full max-md:mt-10">
               <div class="gap-5 flex max-md:flex-col max-md:">
                 <div class="relative min-h-[400px] grow">
-                  <img src="assets/whitebuilding.png" alt="Service feature"
-                  class="absolute h-full w-full object-cover inset-2" />
+                  <img
+                    src="assets/whitebuilding.png"
+                    alt="Service feature"
+                    class="absolute h-full w-full object-cover inset-2"
+                  />
                 </div>
               </div>
             </div>
@@ -535,33 +576,7 @@
       </div>
     </section>
 
-    <!-- Footer Section -->
-    <footer
-      class="bg-[rgba(61,62,63,1)] flex w-full items-center gap-[40px_100px] text-[15px] text-white font-normal text-center flex-wrap px-[76px] max-md:max-w-full max-md:px-5"
-    >
-      <div class="leading-[1.9] self-stretch my-auto">
-        Copyright © 2025. FoundOne
-      </div>
-      <img
-        src="https://cdn.builder.io/api/v1/image/assets/TEMP/2a6d5127f4a1c4efdfd23b0a35b0f7ea59e5eb75ba2d0b1001cd5d21db5055b9?placeholderIfAbsent=true"
-        alt="Footer logo"
-        class="aspect-[1.23] object-contain w-[191px] self-stretch shrink-0 max-w-full"
-      />
-      <div
-        class="self-stretch flex gap-[30px] whitespace-nowrap leading-none my-auto"
-      >
-        <a href="#" class="hover:text-[rgba(240,182,36,1)]"> Facebook </a>
-        <a href="#" class="hover:text-[rgba(240,182,36,1)]"> Twitter </a>
-        <a href="#" class="hover:text-[rgba(240,182,36,1)]"> Instagram </a>
-        <a href="#" class="hover:text-[rgba(240,182,36,1)]"> LinkedIn </a>
-      </div>
-      <img
-        src="https://cdn.builder.io/api/v1/image/assets/TEMP/c15612fd5d6e1063102dde6cd26502700e7d1ebc717f9e4b5616d253193d53b6?placeholderIfAbsent=true"
-        alt="Back to top"
-        class="aspect-[1] object-contain w-[50px] self-stretch shrink-0 my-auto rounded-[25px] cursor-pointer"
-        onclick="window.scrollTo({ top: 0, behavior: 'smooth' })"
-      />
-    </footer>
+ <div id="footer"></div>
 
     <script>
       // Mobile Menu Toggle

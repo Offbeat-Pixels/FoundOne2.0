@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FoundOne - Find Your Perfect Future Home</title> 
+    <link rel="stylesheet" href="output.css">
+    <script src="index.js"></script>
+  
+</head>
+<body class="bg-gray-50">
+    <div id="navbar"></div>
+    <!-- Hero Section -->
+    <section class="flex max-w-7xl mx-auto   pt-16 pb-32 overflow-hidden">
+      
+
+        <!-- Content -->
+        <div class=" mx-auto px-4 relative z-10">
+            <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4 max-w-xl">
+                Find Your Perfect Future Home
+            </h1>
+            <p class="text-gray-600 mb-8 max-w-xl">
+                Search confidently with your trusted source of homes for sale or rent
+            </p>
+
+            <!-- Search Controls -->
+            <div class=" rounded-lg  p-4 max-w-4xl">
+                <!-- Toggle Buttons -->
+                <div class="flex gap-2 mb-4">
+                    <button class="px-6 py-2 bg-secondary text-white rounded-md">Buy</button>
+                    <button class="px-6 py-2 bg-gray-100 text-gray-700 rounded-md hover:bg-gray-200">Sell</button>
+                    <button class="px-6 py-2 bg-gray-100 text-gray-700 rounded-md hover:bg-gray-200">Rent</button>
+                </div>
+
+                <!-- Search Filters -->
+                <div class="grid md:grid-cols-4 gap-4">
+                    <div class="relative">
+                        <select class="w-full p-3 border rounded-md appearance-none">
+                            <option>Location</option>
+                            <option>New York</option>
+                            <option>Los Angeles</option>
+                            <option>Chicago</option>
+                        </select>
+                    </div>
+                    <div class="relative">
+                        <select class="w-full p-3 border rounded-md appearance-none">
+                            <option>Property Type</option>
+                            <option>Apartment</option>
+                            <option>House</option>
+                            <option>Condo</option>
+                        </select>
+                    </div>
+                    <div class="relative">
+                        <select class="w-full p-3 border rounded-md appearance-none">
+                            <option>Max Price</option>
+                            <option>$100,000</option>
+                            <option>$200,000</option>
+                            <option>$500,000</option>
+                        </select>
+                    </div>
+                    <button class="bg-primary text-white p-3 rounded-md hover:bg-primary/90">
+                        Search
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="w-1/2"><img src="https://img.freepik.com/free-photo/modern-residential-district-with-green-roof-balcony-generated-by-ai_188544-10276.jpg?uid=R129847054&ga=GA1.1.1132508893.1741674781&semt=ais_hybrid" alt="" srcset=""></div>
+    </section>
+
+
+    <!-- New Listed Properties -->
+    <section class="py16">
+        <div class="container mx-auto px-4">
+            <div class="flex justify-between items-center mb-8">
+                <div>
+                    <h2 class="text-2xl font-bold text-gray-900 mb-2">New Listed Apartments</h2>
+                    <p class="text-gray-600">With over 1 million+ homes for sale available on the FoundOne</p>
+                </div>
+                <div class="flex gap-2">
+                    <button class="p-2 rounded-full border hover:bg-gray-100">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+                        </svg>
+                    </button>
+                    <button class="p-2 rounded-full border hover:bg-gray-100">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Property Grid -->
+            <div class="grid md:grid-cols-4 gap-6">
+                <!-- Property Card 1 -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-md">
+                    <div class="relative">
+                        <img src="https://img.freepik.com/free-photo/analog-landscape-city-with-buildings_23-2149661456.jpg?uid=R129847054&ga=GA1.1.1132508893.1741674781&semt=ais_hybrid" alt="Harrison Apartments" class="w-full h-48 object-cover">
+                        <button class="absolute top-4 right-4 p-2 bg-white rounded-full shadow-md hover:bg-gray-100">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-gray-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="text-xl font-semibold mb-2">Harrison Apartments</h3>
+                        <p class="text-gray-600 mb-4">New York, NY</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-primary font-bold">$1,05,000</span>
+                            <button class="text-secondary">View Details</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Property Card 2 -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-md">
+                    <div class="relative">
+                        <img src="https://img.freepik.com/free-photo/analog-landscape-city-with-buildings_23-2149661456.jpg?uid=R129847054&ga=GA1.1.1132508893.1741674781&semt=ais_hybrid" alt="Downtown Living" class="w-full h-48 object-cover">
+                        <button class="absolute top-4 right-4 p-2 bg-white rounded-full shadow-md hover:bg-gray-100">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-gray-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="text-xl font-semibold mb-2">Downtown Living</h3>
+                        <p class="text-gray-600 mb-4">Chicago, IL</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-primary font-bold">$7,50,000</span>
+                            <button class="text-secondary">View Details</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Property Card 3 -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-md">
+                    <div class="relative">
+                        <img src="https://img.freepik.com/free-photo/analog-landscape-city-with-buildings_23-2149661456.jpg?uid=R129847054&ga=GA1.1.1132508893.1741674781&semt=ais_hybrid" alt="Richmond Apartment" class="w-full h-48 object-cover">
+                        <button class="absolute top-4 right-4 p-2 bg-white rounded-full shadow-md hover:bg-gray-100">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-gray-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="text-xl font-semibold mb-2">Richmond Apartment</h3>
+                        <p class="text-gray-600 mb-4">Richmond, VA</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-primary font-bold">$9,85,000</span>
+                            <button class="text-secondary">View Details</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Property Card 4 -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-md">
+                    <div class="relative">
+                        <img src="https://img.freepik.com/free-photo/analog-landscape-city-with-buildings_23-2149661456.jpg?uid=R129847054&ga=GA1.1.1132508893.1741674781&semt=ais_hybrid" alt="Anderson Property" class="w-full h-48 object-cover">
+                        <button class="absolute top-4 right-4 p-2 bg-white rounded-full shadow-md hover:bg-gray-100">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-gray-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="text-xl font-semibold mb-2">Anderson Property</h3>
+                        <p class="text-gray-600 mb-4">Boston, MA</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-primary font-bold">$6,05,000</span>
+                            <button class="text-secondary">View Details</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-2xl font-bold text-center mb-12">How FoundOne can help</h2>
+            <div class="grid md:grid-cols-4 gap-8">
+                <!-- Service 1 -->
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
+                        </svg>
+                    </div>
+                    <h3 class="text-lg font-semibold mb-2">Buy your dream home</h3>
+                    <p class="text-gray-600">Find your place with an immersive photo experience and the most listings</p>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-lg font-semibold mb-2">Easily Sell your home</h3>
+                    <p class="text-gray-600">We make it easy to sell your home and move forward</p>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-lg font-semibold mb-2">Rent your home</h3>
+                    <p class="text-gray-600">We're creating a seamless online experience from shopping to closing</p>
+                </div>
+
+                <!-- Service 4 -->
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-lg font-semibold mb-2">Be partner with FoundOne</h3>
+                    <p class="text-gray-600">Join our network of trusted partners and grow your business</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div id="footer"></div>
+</body>
+</html>

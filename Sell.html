@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Estate Listing</title>
+    <link rel="stylesheet" href="output.css">
+    <script src="index.js"></script>
+</head>
+<body class="bg-white text-white">
+<div id="navbar"></div>
+    <!-- Hero Section -->
+    <section class="relative bg-cover bg-no-repeat bg-center h-[100vh]" style="background-image: url('https://images.pexels.com/photos/186077/pexels-photo-186077.jpeg?auto=compress&cs=tinysrgb&w=600');">
+        <div class="absolute inset-0  bg-opacity-50"></div>
+        <div class="relative z-10 max-w-7xl mx-auto px-6 py-24 text-center">
+            <h1 class="text-5xl font-bold">Let’s Find Your Dream House.</h1>
+            <p class="mt-4 text-lg text-white">Explore thousands of homes for sale and rent.</p>
+            
+            <!-- Search Box -->
+            <div class="mt-8 bg-white text-gray-800 rounded-lg p-4 shadow-md flex flex-wrap justify-center items-center space-x-2">
+                <button class="bg-orange-500 text-white px-4 py-2 rounded-md">General</button>
+                <button class="bg-gray-200 text-gray-700 px-4 py-2 rounded-md">Buy</button>
+                <button class="bg-gray-200 text-gray-700 px-4 py-2 rounded-md">Rent</button>
+
+                <select class="border p-2 rounded-md">
+                    <option>Select Category</option>
+                    <option>Apartment</option>
+                    <option>Villa</option>
+                </select>
+
+                <input type="text" placeholder="Location" class="border p-2 rounded-md">
+
+                <button class="bg-red-500 text-white px-6 py-2 rounded-md">Search</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Explore Apartment Types -->
+    <section class="max-w-7xl mx-auto  text-center">
+        <h2 class="text-3xl font-bold">Explore <span class="text-orange-500">Apartment Types</span></h2>
+
+        <div class="grid grid-cols-2 md:grid-cols-5 gap-6 mt-6">
+            <div class="bg-gray-600 p-6 rounded-md">
+                <p class="text-lg font-semibold">Commercial</p>
+                <p class="text-gray-400">6 Properties</p>
+            </div>
+            <div class="bg-gray-600 p-6 rounded-md">
+                <p class="text-lg font-semibold">Warehouse</p>
+                <p class="text-gray-400">8 Properties</p>
+            </div>
+            <div class="bg-gray-600 p-6 rounded-md">
+                <p class="text-lg font-semibold">Villa</p>
+                <p class="text-gray-400">6 Properties</p>
+            </div>
+            <div class="bg-gray-600 p-6 rounded-md">
+                <p class="text-lg font-semibold">Apartment</p>
+                <p class="text-gray-400">5 Properties</p>
+            </div>
+            <div class="bg-gray-600 p-6 rounded-md">
+                <p class="text-lg font-semibold">Homestay</p>
+                <p class="text-gray-400">3 Properties</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Home Listings -->
+    <section class="max-w-7xl  mx-auto  py-12">
+        <h2 class="text-3xl font-bold">Find Home Listing in Your Area</h2>
+
+        <div class="flex space-x-6 justify-center  mt-6 pb-4">
+            <div class="bg-gray-600 shadow-md rounded-lg p-4 w-72">
+                <img src="https://img.freepik.com/free-photo/3d-electric-car-building_23-2148972401.jpg?uid=R129847054&ga=GA1.1.1132508893.1741674781&semt=ais_hybrid" class="rounded-md">
+                <h3 class="text-lg font-semibold mt-2">$299,900</h3>
+                <p class="text-gray-400">Downtown Apartments</p>
+            </div>
+
+            <div class="bg-gray-600 shadow-md rounded-lg p-4 w-72">
+                <img src="https://img.freepik.com/free-photo/new-buildings-with-green-areas_1122-1533.jpg?uid=R129847054&ga=GA1.1.1132508893.1741674781&semt=ais_hybrid" class="rounded-md">
+                <h3 class="text-lg font-semibold mt-2">$850,000</h3>
+                <p class="text-gray-400">West Square Apartments</p>
+            </div>
+
+            <div class="bg-gray-600 shadow-md rounded-lg p-4 w-72">
+                <img src="https://img.freepik.com/free-photo/new-buildings-with-green-areas_1122-1533.jpg?uid=R129847054&ga=GA1.1.1132508893.1741674781&semt=ais_hybrid" class="rounded-md">
+                <h3 class="text-lg font-semibold mt-2">$1,250,000</h3>
+                <p class="text-gray-400">Premium Apartments</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Top Locations -->
+    <section class="bg-gray-600 py-12">
+        <div class="max-w-7xl mx-auto px-6 text-center">
+            <h2 class="text-3xl font-bold">Our Top Location For Your Property</h2>
+
+            <div class="grid grid-cols-3 gap-6 mt-6">
+                <img src="https://images.pexels.com/photos/1078850/pexels-photo-1078850.jpeg?auto=compress&cs=tinysrgb&w=600" class="rounded-md">
+                <img src="https://images.pexels.com/photos/1078850/pexels-photo-1078850.jpeg?auto=compress&cs=tinysrgb&w=600" class="rounded-md">
+                <img src="https://images.pexels.com/photos/1078850/pexels-photo-1078850.jpeg?auto=compress&cs=tinysrgb&w=600" class="rounded-md">
+            </div>
+        </div>
+    </section>
+    <div id="footer"></div>
+
+</body>
+</html>
