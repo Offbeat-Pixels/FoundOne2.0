@@ -1852,6 +1852,12 @@
   .px-24 {
     padding-inline: calc(var(--spacing) * 24);
   }
+  .px-28 {
+    padding-inline: calc(var(--spacing) * 28);
+  }
+  .px-32 {
+    padding-inline: calc(var(--spacing) * 32);
+  }
   .px-40 {
     padding-inline: calc(var(--spacing) * 40);
   }
