@@ -1,27 +1,67 @@
-  <!-- Footer Section -->
-    <footer
-      class="bg-[rgba(61,62,63,1)] flex w-full items-center gap-[40px_100px] text-[15px] text-white font-normal text-center flex-wrap px-[76px] max-md:max-w-full max-md:px-5"
+    <!-- Newsletter Section -->
+    <section
+      class="bg-[rgba(255,252,242,1)] flex w-full flex-col items-center text-xl text-black justify-center  px-20 py-24 max-md:max-w-full max-md:mt-10 max-md:px-5"
     >
-      <div class="leading-[1.9] self-stretch py-10 my-auto">
-        Copyright © 2025. FoundOne
-      </div>
-      <img
-        src="https://cdn.builder.io/api/v1/image/assets/TEMP/2a6d5127f4a1c4efdfd23b0a35b0f7ea59e5eb75ba2d0b1001cd5d21db5055b9?placeholderIfAbsent=true"
-        alt="Footer logo"
-        class="aspect-[1.23] object-contain w-[191px] self-stretch shrink-0 max-w-full"
-      />
       <div
-        class="self-stretch flex gap-[30px] whitespace-nowrap leading-none my-auto"
-      >
-        <a href="#" class="hover:text-[rgba(240,182,36,1)]"> Facebook </a>
-        <a href="#" class="hover:text-[rgba(240,182,36,1)]"> Twitter </a>
-        <a href="#" class="hover:text-[rgba(240,182,36,1)]"> Instagram </a>
-        <a href="#" class="hover:text-[rgba(240,182,36,1)]"> LinkedIn </a>
+        class="flex   w-xl   flex-col items-center max-md:mb-2.5"
+      > 
+        <i class="fa-brands fa-telegram aspect-square text-[#DE9641]  text-5xl"></i>
+        <h2 class="text-4xl font-medium leading-none text-center mt-5">
+          Stay Up to Date
+        </h2>
+        <p class="font-normal leading-[1.9] text-center mt-5">
+          Subscribe to our newsletter to receive our weekly feed.
+        </p>
+        <form
+          class="bg-[rgba(255,255,255,0.08)] border self-stretch flex w-full gap-[40px_100px] flex-wrap mt-10 px-9 py-5 rounded-[60px] border-[rgba(204,190,190,1)] border-solid max-md:max-w-full max-md:mt-10 max-md:px-5"
+        >
+          <input
+            type="email"
+            placeholder="Your e-mail"
+            class="bg-transparent font-normal flex-1"
+            required
+          />
+          <button
+            type="submit"
+            class="flex gap-1 items-center font-medium whitespace-nowrap text-center leading-[1.9] my-auto"
+          >
+            <span>Send</span>
+           <span class="text-2xl mb-1"> &#8594</span>
+          </button>
+        </form>
       </div>
-      <!-- <img
-        src="https://cdn.builder.io/api/v1/image/assets/TEMP/c15612fd5d6e1063102dde6cd26502700e7d1ebc717f9e4b5616d253193d53b6?placeholderIfAbsent=true"
-        alt="Back to top"
-        class="aspect-[1] object-contain w-[50px] self-stretch shrink-0 my-auto rounded-[25px] cursor-pointer"
-        onclick="window.scrollTo({ top: 0, behavior: 'smooth' })"
-      /> -->
-    </footer>
+    </section>
+
+<!-- Footer Section -->
+<footer
+  class="bg-[#3d3e3f] flex w-full items-center justify-center gap-40 text-base text-white font-normal   flex-wrap px-20 max-md:max-w-full max-md:px-5"
+>
+  <div class="leading-relaxed self-stretch py-10 my-auto">
+    Copyright © 2025. FoundOne
+  </div>
+ 
+<a href="index.html">
+    <img
+    src="https://cdn.builder.io/api/v1/image/assets/TEMP/2a6d5127f4a1c4efdfd23b0a35b0f7ea59e5eb75ba2d0b1001cd5d21db5055b9?placeholderIfAbsent=true"
+    alt="Footer logo"
+    class="aspect-square object-contain w-48 self-stretch shrink-0 max-w-full"
+  />
+</a>
+  
+  <div class="self-stretch flex gap-8 whitespace-nowrap leading-none my-auto">
+    <a href="#" class="hover:text-[#f0b624]"> <i class="fa-brands fa-instagram"></i> </a>
+    <a href="#" class="hover:text-[#f0b624]"> <i class="fa-brands fa-facebook-f"></i> </a>
+    <a href="#" class="hover:text-[#f0b624]"><i class="fa-brands fa-twitter"></i> </a> 
+    <a href="#" class="hover:text-[#f0b624]"> <i class="fa-brands fa-linkedin-in"></i> </a>
+  </div>
+  
+  <!-- Optional: Back to top button -->
+  
+  <img
+    src="https://cdn.builder.io/api/v1/image/assets/TEMP/c15612fd5d6e1063102dde6cd26502700e7d1ebc717f9e4b5616d253193d53b6?placeholderIfAbsent=true"
+    alt="Back to top"
+    class="aspect-square object-contain w-12 self-stretch shrink-0 my-auto rounded-full cursor-pointer"
+    onclick="window.scrollTo({ top: 0, behavior: 'smooth' })"
+  /> 
+ 
+</footer>

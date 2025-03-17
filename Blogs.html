@@ -3,135 +3,116 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://cdn.tailwindcss.com"></script>
-    <title>Our Products</title>
+    <title>Blogs | FoundOne</title>
+    <link rel="stylesheet" href="output.css" />
   </head>
-  <body class="bg-stone-50">
-    <section
-      class="flex flex-col relative min-h-[1027px] w-full items-center justify-center mt-[83px] px-20 py-24 max-md:max-w-full max-md:mt-10 max-md:pb-[100px] max-md:px-5"
-    >
-      <div
-        class="relative flex mb-[-23px] w-full max-w-[1537px] flex-col max-md:max-w-full max-md:mb-2.5"
+  <body>
+    <div id="navbar"></div>
+    
+    <div class="overflow-hidden bg-white">
+      <section
+        style="background-image: url(assets/BlogBg.png)"
+        class="bg-contain bg-center bg-repeat-x flex relative flex-col overflow-hidden items-center px-4 sm:px-10 md:px-20 py-10 sm:py-16 md:py-20 w-full font-bold text-center text-black min-h-48 sm:min-h-64 md:min-h-80"
       >
-        <h2
-          class="text-neutral-800 text-[50px] font-extrabold tracking-[-1px] self-center max-md:text-[40px]"
-        >
-          Our Products
-        </h2>
+        <div class="flex relative  gap-3 w-fit">
+          <h1 class="text-white text-3xl md:text-4xl font-light mb-2">Our</h1>
+        <h2 class="text-[#F0B624] text-4xl md:text-5xl font-bold">Blogs</h2>
+        </div>
+      </section>
+   <!-- Breadcrumb -->
+    <div style="background-image: url(assets/dotteBg.png)">
+      <div
+        class="bg-white w-fit flex -translate-y-10 text-xl font-bold mx-auto z-10 p-4"
+      >
+        <a href="index.html" class="text-black">Home</a>
+        <span class="mx-2 text-gray-400">></span>
+        <span class="text-red-500">Blogs</span>
+      </div>
+    </div>
+      <div
+        class="relative my-6 sm:my-8 md:my-10 w-full mx-auto px-4 sm:px-6 max-w-xs sm:max-w-2xl md:max-w-3xl lg:max-w-5xl overflow-hidden"
+      >
+      <div class="mb-5"> 
+        <p class="text-3xl font-bold">
+          Our Latest Blogs
+        </p>
+        <p class="text-lg font-bold"> 
+          Achieve your business dreams with expert guidance.</p>
+        </div>
+
+        <!-- Responsive Blog Grid -->
         <div
-          class="flex gap-5 text-black flex-wrap justify-between mt-[67px] max-md:mt-10"
+          id="carousel"
+          class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-4 md:gap-6"
         >
-          <!-- Plotting Projects -->
-          <div
-            class="flex flex-col relative aspect-[0.725] text-2xl font-extrabold tracking-[-0.21px] pt-[239px] pb-[15px] px-[9px] rounded-[10px] max-md:pt-[100px]"
-          >
-            <img /assets/product1.png" alt="Plotting Projects" class="absolute
-            h-full w-full object-cover inset-0 rounded-[10px]" />
-            <div class="relative bg-white pt-[11px] pb-[19px] px-2 rounded-md">
-              Plotting Projects
-            </div>
-          </div>
-
-          <div class="text-2xl font-extrabold tracking-[-0.21px]">
-            <!-- Villa Projects -->
+          <!-- Blog Card 1 -->
+          <div class="w-full mx-auto max-w-xs">
             <div
-              class="flex flex-col relative aspect-[0.725] text-2xl font-extrabold tracking-[-0.21px] pt-[239px] pb-[15px] px-[9px] rounded-[10px] max-md:pt-[100px]"
-            >
-              <img /assets/product2.png" alt="Villa Projects" class="absolute
-              h-full w-full object-cover inset-0 rounded-[10px]" />
-              <div
-                class="relative bg-white pt-[11px] pb-[19px] px-2 rounded-md"
-              >
-                Villa Projects
-              </div>
-            </div>
-
-            <!-- Group Housing -->
-            <div
-              class="flex flex-col relative aspect-[0.725] text-2xl font-extrabold tracking-[-0.21px] pt-[239px] pb-[15px] px-[9px] rounded-[10px] max-md:pt-[100px] mt-8"
-            >
-              <img /assets//product3.png" alt="Group Housing" class="absolute
-              h-full w-full object-cover inset-0 rounded-[10px]" />
-              <div
-                class="relative bg-white pt-[11px] pb-[19px] px-2 rounded-md"
-              >
-                Group Housing
-              </div>
-            </div>
-          </div>
-
-          <!-- Builder Floor -->
-          <div class="flex flex-col relative aspect-square pb-7 rounded-[10px]">
-            <img /assets/product4.png" alt="Builder Floor" class="absolute
-            h-full w-full object-cover inset-0 rounded-[10px]" />
-            <div
-              class="relative bg-[#F0B624] flex flex-col px-6 py-[57px] rounded-md max-md:px-5"
-            >
-              <h3
-                class="text-2xl font-extrabold tracking-[-0.21px] self-center"
-              >
-                Builder Floor
-              </h3>
-              <p
-                class="text-[15px] font-medium leading-[27px] tracking-[-0.3px] text-center mt-[22px]"
-              >
-                We understand that luxury is in the details. With an unmatched
-                portfolio of premier properties, we ensure that every home we
-                offer reflects the highest standards of quality, design, and
-                prestige.
-              </p>
-            </div>
-          </div>
-
-          <div
-            class="text-2xl font-extrabold tracking-[-0.21px] mt-[50px] max-md:mt-10"
-          >
-            <!-- Corporate Projects -->
-            <div
-              class="flex flex-col relative aspect-[0.725] text-2xl font-extrabold tracking-[-0.21px] pt-[239px] pb-[15px] px-[9px] rounded-[10px] max-md:pt-[100px]"
-            >
-              <img /assets/product5.png" alt="Corporate Projects"
-              class="absolute h-full w-full object-cover inset-0 rounded-[10px]"
-              />
-              <div
-                class="relative bg-white pt-[11px] pb-[19px] px-2 rounded-md"
-              >
-                Corporate Projects
-              </div>
-            </div>
-
-            <!-- Land Parcels -->
-            <div
-              class="flex flex-col relative aspect-[0.725] text-2xl font-extrabold tracking-[-0.21px] pt-[239px] pb-[15px] px-[9px] rounded-[10px] max-md:pt-[100px] mt-[19px]"
+              class="bg-white rounded-lg shadow-lg overflow-hidden relative h-80"
             >
               <img
-                src="/api/placeholder/400/550"
-                alt="Land Parcels"
-                class="absolute h-full w-full object-cover inset-0 rounded-[10px]"
+                src="assets/Blog1.png"
+                alt="Blog Image"
+                class="w-full h-full object-cover"
               />
               <div
-                class="relative bg-white pt-[11px] pb-[19px] px-2 rounded-md"
+                class="absolute bottom-2 left-2 right-2 text-center mx-auto h-auto min-h-16 sm:h-20 bg-white p-3 sm:p-4 rounded"
               >
-                Land Parcels
+                <a
+                  href="Blogs/themes-for-your-next-event.html.html"
+                  class="text-base sm:text-lg font-semibold"
+                  >Themes to Make Your Next Event Unforgettable</a
+                >
               </div>
             </div>
           </div>
-
-          <!-- Leasing -->
-          <div
-            class="flex flex-col relative aspect-[0.725] text-2xl font-extrabold tracking-[-0.21px] pt-[239px] pb-[15px] px-[9px] rounded-[10px] max-md:pt-[100px] my-auto"
-          >
-            <img
-              src="/api/placeholder/400/550"
-              alt="Leasing"
-              class="absolute h-full w-full object-cover inset-0 rounded-[10px]"
-            />
-            <div class="relative bg-white pt-[11px] pb-[19px] px-2 rounded-md">
-              Leasing
+          <!-- Blog Card 2 -->
+          <div class="w-full mx-auto max-w-xs">
+            <div
+              class="bg-white rounded-lg shadow-lg overflow-hidden relative h-80"
+            >
+              <img
+                src="assets/Blog2.png"
+                alt="Blog Image"
+                class="w-full h-full object-cover"
+              />
+              <div
+                class="absolute bottom-2 left-2 right-2 text-center mx-auto h-auto min-h-16 sm:h-20 bg-white p-3 sm:p-4 rounded"
+              >
+                <a
+                  href="Blogs/guest-management.html"
+                  class="text-base sm:text-lg font-semibold"
+                  >Guest Management During an Event</a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- Blog Card 3 -->
+          <div class="w-full mx-auto max-w-xs">
+            <div
+              class="bg-white rounded-lg shadow-lg overflow-hidden relative h-80"
+            >
+              <img
+                src="assets/Blog3.png"
+                alt="Blog Image"
+                class="w-full h-full object-cover"
+              />
+              <div
+                class="absolute bottom-2 left-2 right-2 text-center mx-auto h-auto min-h-16 sm:h-20 bg-white p-3 sm:p-4 rounded"
+              >
+                <a
+                  href="Blogs/role-of-an-event-consultant.html"
+                  class="text-base sm:text-lg font-semibold"
+                  >Role of an Event Consultant</a
+                >
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+
+    <div id="footer" class="mt-10"></div>
+    <script src="index.js"></script>
   </body>
 </html>
