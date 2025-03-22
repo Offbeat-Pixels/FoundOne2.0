@@ -1,23 +1,39 @@
-
-<div style="background-image: url('assets/dotteBg.png')">
-<!-- Header -->
-    <header
-      class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center"
-      
-    >
+  <nav  style="background-image: url('assets/dotteBg.png')">
+   <header  class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center"  >
+    <!-- Logo -->
       <a href="index.html">
         <img src="assets/logo.png" alt="Found One Logo" class="h-14"
       /></a>
-      <nav class="hidden md:flex space-x-8">
+
+    <!-- Desktop Menu -->
+    <nav class="hidden md:flex space-x-8">
         <a href="About.html" class="text-gray-700 font-medium">About Us</a>
         <a href="Products.html" class="text-gray-700 font-medium">Products</a>
         <a href="Blogs.html" class="text-gray-700 font-medium">Blogs</a> 
         <a href="ContactUs.html" class="text-gray-700 font-medium">Contact</a>
       </nav>
-      <a
+       <a
         href="#"
         class="hidden md:block bg-red-500 text-white px-6 py-2 rounded-full font-medium"
         >Let's Talk</a
       >
-      <button class="md:hidden text-xl">☰</button>
-    </header></div>
+
+    <!-- Mobile Menu Button --> 
+    <button id="menu-btn" class="lg:hidden font-extrabold text-3xl">
+      &#9776;
+    </button>
+  </div>
+
+  <!-- Mobile Menu -->
+  <div
+    id="mobile-menu"
+    class="hidden flex-col absolute top-20 left-0 z-50 w-full bg-white text-lg lg:hidden shadow-lg space-y-2 px-5 py-5"
+  >
+    <div><a href="index.html" class="py-2">Home</a></div>
+    <div><a href="About.html" class="py-2">About Us</a></div>
+    <div><a href="Products.html" class="py-2">Products</a></div> 
+    <div><a href="Blogs.html" class="py-2">Blog</a></div>
+    <div><a href="Gallery.html" class="py-2">Gallery</a></div>
+    <div><a href="ContactUs.html" class="py-2">Contact Us</a></div>
+  </div>
+</nav>

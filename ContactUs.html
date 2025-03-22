@@ -9,32 +9,35 @@
   </head>
   <body>
     <div id="navbar"></div>
-
-    <section class="relative w-full flex flex-col text-black text-center">
-      <!-- Hero Section -->
-      <div
-        class="w-full h-fit flex flex-col items-center p-2 md:p-10 text-black text-center"
+ <section
+        style="background-image: url(assets/ContactPage.png)"
+        class="bg-cover bg-center bg-repeat-x flex relative flex-col overflow-hidden items-center px-4 sm:px-10 md:px-20 py-10 sm:py-16 md:py-32 text-center w-full font-bold   text-black min-h-48 sm:min-h-64 md:min-h-80"
       >
-        <h1 class="text-6xl font-bold max-md:text-6xl max-sm:text-4xl py-2">
-          Contact Us
-        </h1>
-        <nav aria-label="breadcrumb" class="text-xl sm:text-2xl font-bold">
-          <ol class="flex justify-center">
-            <li><a href="index.html" class="">Home</a></li>
-            <li class="mx-2">&gt;</li>
-            <li aria-current="page" class="text-[#F1B625]">Contact Us</li>
-          </ol>
-        </nav>
+        <div class="flex relative  gap-3 w-fit"> 
+        <h1 class="text-[#F0B624] text-4xl md:text-5xl font-bold"> Contact Us</h1>
+        </div>
+      </section>
+   <!-- Breadcrumb -->
+    <div style="background-image: url(assets/dotteBg.png)">
+      <div
+        class="bg-white w-fit flex -translate-y-10 text-xl font-bold mx-auto z-10 p-4"
+      >
+        <a href="index.html" class="text-black">Home</a>
+        <span class="mx-2 text-gray-400">></span>
+        <span class="text-red-500">Contact Us</span>
       </div>
+    </div>
+    <section class="relative w-full flex flex-col text-black text-center">
+    
 
       <!-- Hero Section Content -->
-      <section class="z-10 mx-2 h-fit md:mx-auto items-center space-y-10">
+      <section class="  mx-2 h-fit mb-10  md:mx-auto items-center space-y-10">
         <main
-          class="z-10 md:mt-10 mx-auto w-full max-w-screen-xl bg-white rounded-2xl max-md:max-w-full"
+          class="z-50 md:mt-10 mx-auto w-full max-w-screen-xl bg-white rounded-2xl max-md:max-w-full"
         >
           <div class="flex justify-between gap-5 max-md:flex-col">
             <!-- Left: Contact Form -->
-            <section class="w-[60%] max-md:w-full">
+            <section class="z-10 w-[60%] max-md:w-full">
               <div class="flex flex-col grow">
                 <form
                   class="z-10 text-left flex flex-col px-12 py-8 max-w-full rounded-xl border border-solid border-neutral-200 w-3xl max-md:px-5"
@@ -125,7 +128,7 @@
             </section>
 
             <!-- Right: Info Box -->
-            <aside class="w-[40%] max-md:w-full">
+            <aside class="z-10  w-[40%] max-md:w-full">
               <div
                 class="w-full text-base font-medium text-center bg-amber-50 text-slate-600 border border-gray-300 border-opacity-10 p-8 rounded-xl"
               >
@@ -221,23 +224,11 @@
             </aside>
           </div>
         </main>
-
-        <div class="overflow-x-clip bg-zinc-500 max-md:max-w-full">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d215.15587916016835!2d78.08792456827523!3d30.36533556093786!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3908d7ad2cdf430d%3A0x682280cc770a07ea!2sOFFBEAT%20PIXELS!5e0!3m2!1sen!2sin!4v1741075332296!5m2!1sen!2sin"
-            width="600"
-            height="450"
-            style="border: 0"
-            allowfullscreen=""
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
-            class="object-contain w-full aspect-[4] max-md:max-w-full"
-          ></iframe>
+ 
+        <div class="  w-full  ">
+          <img src="assets/howBg1.png" alt="" srcset="" class=" absolute inset-0" />
         </div>
       </section>
-      <div class="absolute bottom-5 w-full border-b-2 border-gray-300">
-        <img src="assets/strategyBg2.png" alt="" srcset="" class="h-80" />
-      </div>
     </section>
 
     <div id="footer"></div>

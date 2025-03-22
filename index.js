@@ -120,12 +120,12 @@ document.addEventListener("DOMContentLoaded", () => {
   const nextBtn = document.getElementById("next");
 
   const images = [
-    "/assetss/G1.webp",
-    "/assetss/G2.webp",
-    "/assetss/G3.webp",
-    "/assetss/G4.webp",
-    "/assetss/G5.webp",
-    "/assetss/G6.webp",
+    "/assetss/productPage1.png",
+    "/assetss/productPage1.png",
+    "/assetss/productPage1.png",
+    "/assetss/productPage1.png",
+    "/assetss/productPage1.png",
+    "/assetss/productPage1.png",
   ];
 
   let currentIndex = 0;
@@ -189,97 +189,8 @@ document.addEventListener("DOMContentLoaded", function () {
         "Modal or buttons not found. Make sure the footer is loaded before this script runs."
       );
     }
-  }, 500); // Delay ensures the modal is loaded
+  }, 500);
 });
-
-// document.addEventListener("DOMContentLoaded", function () {
-//   function setupModal(openBtnId, modalId, closeBtnIds) {
-//     const modal = document.getElementById(modalId);
-//     const openBtn = document.getElementById(openBtnId);
-//     const closeBtns = closeBtnIds.map((id) => document.getElementById(id));
-
-//     function openModal() {
-//       modal.classList.remove("hidden");
-//     }
-
-//     function closeModal() {
-//       modal.classList.add("hidden");
-//     }
-
-//     if (openBtn) {
-//       openBtn.addEventListener("click", openModal);
-//     }
-
-//     closeBtns.forEach((button) => {
-//       if (button) {
-//         button.addEventListener("click", closeModal);
-//       }
-//     });
-
-//     modal.addEventListener("click", function (event) {
-//       if (event.target === modal) {
-//         closeModal();
-//       }
-//     });
-//   }
-
-//   // Setup modals
-//   setupModal("openCateringModal", "cateringModal", [
-//     "closeCateringModal",
-//     "closeCateringModal2",
-//   ]);
-//   setupModal("openDealsModal", "dealsModal", [
-//     "closeDealsModal",
-//     "closeDealsModal2",
-//   ]);
-// });
-
-// document.addEventListener("DOMContentLoaded", function () {
-//   function setupModal(openBtnId, modalId, closeBtnIds) {
-//     const modal = document.getElementById(modalId);
-//     const openBtn = document.getElementById(openBtnId);
-//     const closeBtns = closeBtnIds.map((id) => document.getElementById(id));
-
-//     function openModal() {
-//       modal.classList.remove("hidden");
-//     }
-
-//     function closeModal() {
-//       modal.classList.add("hidden");
-//     }
-
-//     if (openBtn) {
-//       openBtn.addEventListener("click", openModal);
-//     }
-
-//     closeBtns.forEach((button) => {
-//       if (button) {
-//         button.addEventListener("click", closeModal);
-//       }
-//     });
-
-//     modal.addEventListener("click", function (event) {
-//       if (event.target === modal) {
-//         closeModal();
-//       }
-//     });
-//   }
-
-//   // Setup modals
-//   setupModal("openCateringModal", "cateringModal", [
-//     "closeCateringModal",
-//     "closeCateringModal2",
-//   ]);
-//   setupModal("openDealsModal", "dealsModal", [
-//     "closeDealsModal",
-//     "closeDealsModal2",
-//   ]);
-//   setupModal("openMenuModal", "menuModal", [
-//     "closeMenuModal",
-//     "closeMenuModal2",
-//   ]);
-// });
-
 document.addEventListener("DOMContentLoaded", function () {
   function setupModal(openBtnId, modalId, closeBtnIds) {
     const modal = document.getElementById(modalId);

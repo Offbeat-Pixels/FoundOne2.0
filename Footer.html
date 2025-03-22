@@ -1,67 +1,51 @@
-    <!-- Newsletter Section -->
-    <section
-      class="bg-[rgba(255,252,242,1)] flex w-full flex-col items-center text-xl text-black justify-center  px-20 py-24 max-md:max-w-full max-md:mt-10 max-md:px-5"
-    >
-      <div
-        class="flex   w-xl   flex-col items-center max-md:mb-2.5"
-      > 
-        <i class="fa-brands fa-telegram aspect-square text-[#DE9641]  text-5xl"></i>
-        <h2 class="text-4xl font-medium leading-none text-center mt-5">
-          Stay Up to Date
-        </h2>
-        <p class="font-normal leading-[1.9] text-center mt-5">
-          Subscribe to our newsletter to receive our weekly feed.
-        </p>
-        <form
-          class="bg-[rgba(255,255,255,0.08)] border self-stretch flex w-full gap-[40px_100px] flex-wrap mt-10 px-9 py-5 rounded-[60px] border-[rgba(204,190,190,1)] border-solid max-md:max-w-full max-md:mt-10 max-md:px-5"
-        >
-          <input
-            type="email"
-            placeholder="Your e-mail"
-            class="bg-transparent font-normal flex-1"
-            required
-          />
-          <button
-            type="submit"
-            class="flex gap-1 items-center font-medium whitespace-nowrap text-center leading-[1.9] my-auto"
-          >
-            <span>Send</span>
-           <span class="text-2xl mb-1"> &#8594</span>
-          </button>
-        </form>
-      </div>
-    </section>
+<!-- Newsletter Section -->
+<section class="bg-[rgba(255,252,242,1)] flex flex-col items-center text-black text-xl px-2 sm:px-10 md:px-20 py-12 sm:py-16 md:py-24">
+  <div class="w-full max-w-xl text-center">
+    <i class="fa-brands fa-telegram text-[#DE9641] text-4xl sm:text-5xl"></i>
+    <h2 class="text-3xl sm:text-4xl font-medium mt-4 sm:mt-5">Stay Up to Date</h2>
+    <p class="text-base sm:text-lg font-normal leading-relaxed mt-3 sm:mt-5">
+      Subscribe to our newsletter to receive our weekly feed.
+    </p>
+    <form class="flex w-full border border-gray-500 rounded-full   mt-6">
+      <input type="email" placeholder="Your e-mail" class="flex-1 px-4 py-3 h-full bg-transparent rounded-full" required />
+      <button type="submit" class="px-4 flex items-center font-medium">
+        Send <span class="text-2xl ml-2">&#8594;</span>
+      </button>
+    </form>
+  </div>
+</section>
+
 
 <!-- Footer Section -->
 <footer
-  class="bg-[#3d3e3f] flex w-full items-center justify-center gap-40 text-base text-white font-normal   flex-wrap px-20 max-md:max-w-full max-md:px-5"
+  class="bg-[#3d3e3f] flex w-full flex-col sm:flex-row items-center justify-center gap-8 sm:gap-10 md:gap-20 lg:gap-40 text-base text-white font-normal px-5 sm:px-10 md:px-20 py-8 sm:py-0"
 >
-  <div class="leading-relaxed self-stretch py-10 my-auto">
-    Copyright © 2025. FoundOne
+  <div class="leading-relaxed py-4 sm:py-10 order-3 sm:order-1">
+    Copyright 2025. FoundOne
   </div>
  
-<a href="index.html">
+  <a href="index.html" class="order-1 sm:order-2 py-4 sm:py-0">
     <img
-    src="https://cdn.builder.io/api/v1/image/assets/TEMP/2a6d5127f4a1c4efdfd23b0a35b0f7ea59e5eb75ba2d0b1001cd5d21db5055b9?placeholderIfAbsent=true"
-    alt="Footer logo"
-    class="aspect-square object-contain w-48 self-stretch shrink-0 max-w-full"
-  />
-</a>
+      src="https://cdn.builder.io/api/v1/image/assets/TEMP/2a6d5127f4a1c4efdfd23b0a35b0f7ea59e5eb75ba2d0b1001cd5d21db5055b9?placeholderIfAbsent=true"
+      alt="Footer logo"
+      class="aspect-square object-contain w-36 sm:w-48 max-w-full"
+    />
+  </a>
   
-  <div class="self-stretch flex gap-8 whitespace-nowrap leading-none my-auto">
-    <a href="#" class="hover:text-[#f0b624]"> <i class="fa-brands fa-instagram"></i> </a>
-    <a href="#" class="hover:text-[#f0b624]"> <i class="fa-brands fa-facebook-f"></i> </a>
-    <a href="#" class="hover:text-[#f0b624]"><i class="fa-brands fa-twitter"></i> </a> 
-    <a href="#" class="hover:text-[#f0b624]"> <i class="fa-brands fa-linkedin-in"></i> </a>
+  <div class="flex gap-8 whitespace-nowrap leading-none py-4 sm:py-10 order-2 sm:order-3">
+    <a href="#" class="hover:text-[#f0b624] text-xl sm:text-base"> <i class="fa-brands fa-instagram"></i> </a>
+    <a href="#" class="hover:text-[#f0b624] text-xl sm:text-base"> <i class="fa-brands fa-facebook-f"></i> </a>
+    <a href="#" class="hover:text-[#f0b624] text-xl sm:text-base"><i class="fa-brands fa-twitter"></i> </a> 
+    <a href="#" class="hover:text-[#f0b624] text-xl sm:text-base"> <i class="fa-brands fa-linkedin-in"></i> </a>
   </div>
   
   <!-- Optional: Back to top button -->
-  
-  <img
-    src="https://cdn.builder.io/api/v1/image/assets/TEMP/c15612fd5d6e1063102dde6cd26502700e7d1ebc717f9e4b5616d253193d53b6?placeholderIfAbsent=true"
-    alt="Back to top"
-    class="aspect-square object-contain w-12 self-stretch shrink-0 my-auto rounded-full cursor-pointer"
-    onclick="window.scrollTo({ top: 0, behavior: 'smooth' })"
-  /> 
- 
+  <div class="order-4 py-4 sm:py-10">
+    <img
+      src="https://cdn.builder.io/api/v1/image/assets/TEMP/c15612fd5d6e1063102dde6cd26502700e7d1ebc717f9e4b5616d253193d53b6?placeholderIfAbsent=true"
+      alt="Back to top"
+      class="aspect-square object-contain w-10 sm:w-12 shrink-0 rounded-full cursor-pointer"
+      onclick="window.scrollTo({ top: 0, behavior: 'smooth' })"
+    /> 
+  </div>
 </footer>
